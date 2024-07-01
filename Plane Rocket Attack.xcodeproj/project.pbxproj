@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2D56A62C32D7C40012D527 /* Plane_Rocket_AttackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56A52C32D7C40012D527 /* Plane_Rocket_AttackApp.swift */; };
+		EE2D56A82C32D7C40012D527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56A72C32D7C40012D527 /* ContentView.swift */; };
+		EE2D56AA2C32D7C70012D527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2D56A92C32D7C70012D527 /* Assets.xcassets */; };
+		EE2D56AD2C32D7C70012D527 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2D56AC2C32D7C70012D527 /* Preview Assets.xcassets */; };
+		EE2D56B82C32D81A0012D527 /* HomeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56B72C32D81A0012D527 /* HomeMenuView.swift */; };
+		EE2D56BA2C32D96D0012D527 /* PassionOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2D56B92C32D96D0012D527 /* PassionOne-Regular.ttf */; };
+		EE2D56BF2C32D9F80012D527 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56BE2C32D9F80012D527 /* HomeButton.swift */; };
+		EE2D56C52C32DB7A0012D527 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56C42C32DB7A0012D527 /* RulesView.swift */; };
+		EE2D56C72C32DB860012D527 /* RuleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56C62C32DB860012D527 /* RuleComponent.swift */; };
+		EE2D56CC2C3300B40012D527 /* SettingFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56CB2C3300B40012D527 /* SettingFieldView.swift */; };
+		EE2D56CE2C3302260012D527 /* SettingsFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56CD2C3302260012D527 /* SettingsFormView.swift */; };
+		EE2D56D02C3303C70012D527 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56CF2C3303C70012D527 /* SettingsView.swift */; };
+		EE2D56D62C33046B0012D527 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56D52C33046B0012D527 /* ShopView.swift */; };
+		EE2D56D92C33061D0012D527 /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56D82C33061D0012D527 /* Airplane.swift */; };
+		EE2D56DB2C3306330012D527 /* AirplaneStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56DA2C3306330012D527 /* AirplaneStore.swift */; };
+		EE2D56DD2C3306C90012D527 /* ShopeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56DC2C3306C90012D527 /* ShopeListView.swift */; };
+		EE2D56DF2C3307240012D527 /* AirplaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56DE2C3307240012D527 /* AirplaneView.swift */; };
+		EE2D56E12C33086C0012D527 /* AirplaneBoughtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56E02C33086B0012D527 /* AirplaneBoughtView.swift */; };
+		EE2D56E52C330BB10012D527 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56E42C330BB10012D527 /* UserManager.swift */; };
+		EE2D56E72C332DF50012D527 /* AirplaneSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56E62C332DF50012D527 /* AirplaneSelectedView.swift */; };
+		EE2D56EF2C332E7D0012D527 /* WinGameRocketsPlaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56EE2C332E7D0012D527 /* WinGameRocketsPlaneView.swift */; };
+		EE2D56F12C33303F0012D527 /* LoseGameRocketsPlaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56F02C33303F0012D527 /* LoseGameRocketsPlaneView.swift */; };
+		EE2D56F32C3331190012D527 /* PlaneRocketsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56F22C3331190012D527 /* PlaneRocketsGameView.swift */; };
+		EE2D56F52C3331600012D527 /* PlaneRocketsGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D56F42C3331600012D527 /* PlaneRocketsGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE2D56A22C32D7C40012D527 /* Plane Rocket Attack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plane Rocket Attack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2D56A52C32D7C40012D527 /* Plane_Rocket_AttackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane_Rocket_AttackApp.swift; sourceTree = "<group>"; };
+		EE2D56A72C32D7C40012D527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE2D56A92C32D7C70012D527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2D56AC2C32D7C70012D527 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE2D56B72C32D81A0012D527 /* HomeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuView.swift; sourceTree = "<group>"; };
+		EE2D56B92C32D96D0012D527 /* PassionOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PassionOne-Regular.ttf"; sourceTree = "<group>"; };
+		EE2D56BB2C32D9740012D527 /* PassionOne-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PassionOne-Bold.ttf"; sourceTree = "<group>"; };
+		EE2D56BC2C32D9880012D527 /* Plane-Rocket-Attack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Plane-Rocket-Attack-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE2D56BE2C32D9F80012D527 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		EE2D56C42C32DB7A0012D527 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		EE2D56C62C32DB860012D527 /* RuleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleComponent.swift; sourceTree = "<group>"; };
+		EE2D56CB2C3300B40012D527 /* SettingFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFieldView.swift; sourceTree = "<group>"; };
+		EE2D56CD2C3302260012D527 /* SettingsFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFormView.swift; sourceTree = "<group>"; };
+		EE2D56CF2C3303C70012D527 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EE2D56D52C33046B0012D527 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		EE2D56D82C33061D0012D527 /* Airplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+		EE2D56DA2C3306330012D527 /* AirplaneStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneStore.swift; sourceTree = "<group>"; };
+		EE2D56DC2C3306C90012D527 /* ShopeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopeListView.swift; sourceTree = "<group>"; };
+		EE2D56DE2C3307240012D527 /* AirplaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneView.swift; sourceTree = "<group>"; };
+		EE2D56E02C33086B0012D527 /* AirplaneBoughtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneBoughtView.swift; sourceTree = "<group>"; };
+		EE2D56E42C330BB10012D527 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EE2D56E62C332DF50012D527 /* AirplaneSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneSelectedView.swift; sourceTree = "<group>"; };
+		EE2D56EE2C332E7D0012D527 /* WinGameRocketsPlaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinGameRocketsPlaneView.swift; sourceTree = "<group>"; };
+		EE2D56F02C33303F0012D527 /* LoseGameRocketsPlaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseGameRocketsPlaneView.swift; sourceTree = "<group>"; };
+		EE2D56F22C3331190012D527 /* PlaneRocketsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneRocketsGameView.swift; sourceTree = "<group>"; };
+		EE2D56F42C3331600012D527 /* PlaneRocketsGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneRocketsGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2D569F2C32D7C40012D527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2D56992C32D7C40012D527 = {
+			isa = PBXGroup;
+			children = (
+				EE2D56A42C32D7C40012D527 /* Plane Rocket Attack */,
+				EE2D56A32C32D7C40012D527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2D56A32C32D7C40012D527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56A22C32D7C40012D527 /* Plane Rocket Attack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2D56A42C32D7C40012D527 /* Plane Rocket Attack */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56E22C330BA30012D527 /* User */,
+				EE2D56BC2C32D9880012D527 /* Plane-Rocket-Attack-Info.plist */,
+				EE2D56B92C32D96D0012D527 /* PassionOne-Regular.ttf */,
+				EE2D56BB2C32D9740012D527 /* PassionOne-Bold.ttf */,
+				EE2D56B42C32D7FF0012D527 /* Application */,
+				EE2D56B32C32D7F40012D527 /* Content */,
+				EE2D56A92C32D7C70012D527 /* Assets.xcassets */,
+				EE2D56AB2C32D7C70012D527 /* Preview Content */,
+			);
+			path = "Plane Rocket Attack";
+			sourceTree = "<group>";
+		};
+		EE2D56AB2C32D7C70012D527 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56AC2C32D7C70012D527 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE2D56B32C32D7F40012D527 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56E82C332E510012D527 /* RocketsPlaneGame */,
+				EE2D56D12C3304330012D527 /* Shop */,
+				EE2D56C82C33005C0012D527 /* Settings */,
+				EE2D56C02C32DB610012D527 /* RulesView */,
+				EE2D56B52C32D8080012D527 /* HomeMenu */,
+				EE2D56A72C32D7C40012D527 /* ContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		EE2D56B42C32D7FF0012D527 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56A52C32D7C40012D527 /* Plane_Rocket_AttackApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EE2D56B52C32D8080012D527 /* HomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56BD2C32D9ED0012D527 /* Components */,
+				EE2D56B62C32D80F0012D527 /* View */,
+			);
+			path = HomeMenu;
+			sourceTree = "<group>";
+		};
+		EE2D56B62C32D80F0012D527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56B72C32D81A0012D527 /* HomeMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D56BD2C32D9ED0012D527 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56BE2C32D9F80012D527 /* HomeButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE2D56C02C32DB610012D527 /* RulesView */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56C32C32DB720012D527 /* Components */,
+				EE2D56C22C32DB6C0012D527 /* View */,
+			);
+			path = RulesView;
+			sourceTree = "<group>";
+		};
+		EE2D56C22C32DB6C0012D527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56C42C32DB7A0012D527 /* RulesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D56C32C32DB720012D527 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56C62C32DB860012D527 /* RuleComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE2D56C82C33005C0012D527 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56CA2C3300700012D527 /* Components */,
+				EE2D56C92C33006C0012D527 /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EE2D56C92C33006C0012D527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56CF2C3303C70012D527 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D56CA2C3300700012D527 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56CB2C3300B40012D527 /* SettingFieldView.swift */,
+				EE2D56CD2C3302260012D527 /* SettingsFormView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE2D56D12C3304330012D527 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56D72C3304FB0012D527 /* Model */,
+				EE2D56D42C33043F0012D527 /* View */,
+				EE2D56D32C33043B0012D527 /* Manager */,
+				EE2D56D22C3304370012D527 /* Components */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		EE2D56D22C3304370012D527 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56DC2C3306C90012D527 /* ShopeListView.swift */,
+				EE2D56DE2C3307240012D527 /* AirplaneView.swift */,
+				EE2D56E02C33086B0012D527 /* AirplaneBoughtView.swift */,
+				EE2D56E62C332DF50012D527 /* AirplaneSelectedView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EE2D56D32C33043B0012D527 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56DA2C3306330012D527 /* AirplaneStore.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE2D56D42C33043F0012D527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56D52C33046B0012D527 /* ShopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D56D72C3304FB0012D527 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56D82C33061D0012D527 /* Airplane.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE2D56E22C330BA30012D527 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56E32C330BA90012D527 /* Manager */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		EE2D56E32C330BA90012D527 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56E42C330BB10012D527 /* UserManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EE2D56E82C332E510012D527 /* RocketsPlaneGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56EB2C332E600012D527 /* GameViews */,
+				EE2D56EA2C332E5C0012D527 /* Scene */,
+				EE2D56E92C332E580012D527 /* View */,
+			);
+			path = RocketsPlaneGame;
+			sourceTree = "<group>";
+		};
+		EE2D56E92C332E580012D527 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56F22C3331190012D527 /* PlaneRocketsGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE2D56EA2C332E5C0012D527 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56F42C3331600012D527 /* PlaneRocketsGameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EE2D56EB2C332E600012D527 /* GameViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56ED2C332E690012D527 /* Lose */,
+				EE2D56EC2C332E650012D527 /* Win */,
+			);
+			path = GameViews;
+			sourceTree = "<group>";
+		};
+		EE2D56EC2C332E650012D527 /* Win */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56EE2C332E7D0012D527 /* WinGameRocketsPlaneView.swift */,
+			);
+			path = Win;
+			sourceTree = "<group>";
+		};
+		EE2D56ED2C332E690012D527 /* Lose */ = {
+			isa = PBXGroup;
+			children = (
+				EE2D56F02C33303F0012D527 /* LoseGameRocketsPlaneView.swift */,
+			);
+			path = Lose;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2D56A12C32D7C40012D527 /* Plane Rocket Attack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2D56B02C32D7C70012D527 /* Build configuration list for PBXNativeTarget "Plane Rocket Attack" */;
+			buildPhases = (
+				EE2D569E2C32D7C40012D527 /* Sources */,
+				EE2D569F2C32D7C40012D527 /* Frameworks */,
+				EE2D56A02C32D7C40012D527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plane Rocket Attack";
+			productName = "Plane Rocket Attack";
+			productReference = EE2D56A22C32D7C40012D527 /* Plane Rocket Attack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2D569A2C32D7C40012D527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE2D56A12C32D7C40012D527 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE2D569D2C32D7C40012D527 /* Build configuration list for PBXProject "Plane Rocket Attack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2D56992C32D7C40012D527;
+			productRefGroup = EE2D56A32C32D7C40012D527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2D56A12C32D7C40012D527 /* Plane Rocket Attack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2D56A02C32D7C40012D527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2D56AD2C32D7C70012D527 /* Preview Assets.xcassets in Resources */,
+				EE2D56BA2C32D96D0012D527 /* PassionOne-Regular.ttf in Resources */,
+				EE2D56AA2C32D7C70012D527 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2D569E2C32D7C40012D527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2D56EF2C332E7D0012D527 /* WinGameRocketsPlaneView.swift in Sources */,
+				EE2D56BF2C32D9F80012D527 /* HomeButton.swift in Sources */,
+				EE2D56CE2C3302260012D527 /* SettingsFormView.swift in Sources */,
+				EE2D56C52C32DB7A0012D527 /* RulesView.swift in Sources */,
+				EE2D56D02C3303C70012D527 /* SettingsView.swift in Sources */,
+				EE2D56F12C33303F0012D527 /* LoseGameRocketsPlaneView.swift in Sources */,
+				EE2D56DF2C3307240012D527 /* AirplaneView.swift in Sources */,
+				EE2D56A82C32D7C40012D527 /* ContentView.swift in Sources */,
+				EE2D56E52C330BB10012D527 /* UserManager.swift in Sources */,
+				EE2D56C72C32DB860012D527 /* RuleComponent.swift in Sources */,
+				EE2D56CC2C3300B40012D527 /* SettingFieldView.swift in Sources */,
+				EE2D56F52C3331600012D527 /* PlaneRocketsGameScene.swift in Sources */,
+				EE2D56E72C332DF50012D527 /* AirplaneSelectedView.swift in Sources */,
+				EE2D56DB2C3306330012D527 /* AirplaneStore.swift in Sources */,
+				EE2D56E12C33086C0012D527 /* AirplaneBoughtView.swift in Sources */,
+				EE2D56D92C33061D0012D527 /* Airplane.swift in Sources */,
+				EE2D56DD2C3306C90012D527 /* ShopeListView.swift in Sources */,
+				EE2D56A62C32D7C40012D527 /* Plane_Rocket_AttackApp.swift in Sources */,
+				EE2D56F32C3331190012D527 /* PlaneRocketsGameView.swift in Sources */,
+				EE2D56D62C33046B0012D527 /* ShopView.swift in Sources */,
+				EE2D56B82C32D81A0012D527 /* HomeMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE2D56AE2C32D7C70012D527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE2D56AF2C32D7C70012D527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2D56B12C32D7C70012D527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plane Rocket Attack/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Rocket-Attack-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Plane-Rocket-Attack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2D56B22C32D7C70012D527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plane Rocket Attack/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Plane-Rocket-Attack-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Plane-Rocket-Attack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2D569D2C32D7C40012D527 /* Build configuration list for PBXProject "Plane Rocket Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2D56AE2C32D7C70012D527 /* Debug */,
+				EE2D56AF2C32D7C70012D527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2D56B02C32D7C70012D527 /* Build configuration list for PBXNativeTarget "Plane Rocket Attack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2D56B12C32D7C70012D527 /* Debug */,
+				EE2D56B22C32D7C70012D527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2D569A2C32D7C40012D527 /* Project object */;
+}
